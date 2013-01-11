@@ -22,14 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		493298051697504C0077AFD3 /* Being.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Being.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		493298051697504C0077AFD3 /* Lichtung_Being.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lichtung_Being.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493298091697504C0077AFD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4932980B1697504C0077AFD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4932980D1697504C0077AFD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		493298111697504C0077AFD3 /* Being-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Being-Info.plist"; sourceTree = "<group>"; };
+		493298111697504C0077AFD3 /* Lichtung_Being-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lichtung_Being-Info.plist"; sourceTree = "<group>"; };
 		493298131697504C0077AFD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		493298151697504C0077AFD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		493298171697504C0077AFD3 /* Being-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Being-Prefix.pch"; sourceTree = "<group>"; };
+		493298171697504C0077AFD3 /* Lichtung_Being-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lichtung_Being-Prefix.pch"; sourceTree = "<group>"; };
 		493298181697504C0077AFD3 /* mw_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mw_AppDelegate.h; sourceTree = "<group>"; };
 		493298191697504D0077AFD3 /* mw_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mw_AppDelegate.m; sourceTree = "<group>"; };
 		4932981B1697504D0077AFD3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				494F17C8169846F900725717 /* QuartzCore.framework */,
-				4932980F1697504C0077AFD3 /* Being */,
+				4932980F1697504C0077AFD3 /* Lichtung_Being */,
 				493298081697504C0077AFD3 /* Frameworks */,
 				493298061697504C0077AFD3 /* Products */,
 			);
@@ -70,7 +70,7 @@
 		493298061697504C0077AFD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				493298051697504C0077AFD3 /* Being.app */,
+				493298051697504C0077AFD3 /* Lichtung_Being.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,7 +85,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4932980F1697504C0077AFD3 /* Being */ = {
+		4932980F1697504C0077AFD3 /* Lichtung_Being */ = {
 			isa = PBXGroup;
 			children = (
 				493298181697504C0077AFD3 /* mw_AppDelegate.h */,
@@ -96,16 +96,17 @@
 				4932982D169751EA0077AFD3 /* mw_BeingView.h */,
 				4932982E169751EA0077AFD3 /* mw_BeingView.m */,
 			);
+			name = Lichtung_Being;
 			path = Being;
 			sourceTree = "<group>";
 		};
 		493298101697504C0077AFD3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				493298111697504C0077AFD3 /* Being-Info.plist */,
+				493298111697504C0077AFD3 /* Lichtung_Being-Info.plist */,
 				493298121697504C0077AFD3 /* InfoPlist.strings */,
 				493298151697504C0077AFD3 /* main.m */,
-				493298171697504C0077AFD3 /* Being-Prefix.pch */,
+				493298171697504C0077AFD3 /* Lichtung_Being-Prefix.pch */,
 				4932981B1697504D0077AFD3 /* Default.png */,
 				4932981D1697504D0077AFD3 /* Default@2x.png */,
 				4932981F1697504D0077AFD3 /* Default-568h@2x.png */,
@@ -116,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		493298041697504C0077AFD3 /* Being */ = {
+		493298041697504C0077AFD3 /* Lichtung_Being */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 493298231697504D0077AFD3 /* Build configuration list for PBXNativeTarget "Being" */;
+			buildConfigurationList = 493298231697504D0077AFD3 /* Build configuration list for PBXNativeTarget "Lichtung_Being" */;
 			buildPhases = (
 				493298011697504C0077AFD3 /* Sources */,
 				493298021697504C0077AFD3 /* Frameworks */,
@@ -128,9 +129,9 @@
 			);
 			dependencies = (
 			);
-			name = Being;
+			name = Lichtung_Being;
 			productName = Being;
-			productReference = 493298051697504C0077AFD3 /* Being.app */;
+			productReference = 493298051697504C0077AFD3 /* Lichtung_Being.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +144,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Miguel dos Santos Vaz Dias Wicht";
 			};
-			buildConfigurationList = 493297FF1697504C0077AFD3 /* Build configuration list for PBXProject "Being" */;
+			buildConfigurationList = 493297FF1697504C0077AFD3 /* Build configuration list for PBXProject "Lichtung_Being" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -155,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				493298041697504C0077AFD3 /* Being */,
+				493298041697504C0077AFD3 /* Lichtung_Being */,
 			);
 		};
 /* End PBXProject section */
@@ -256,9 +257,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Being/Being-Prefix.pch";
-				INFOPLIST_FILE = "Being/Being-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Being/Lichtung_Being-Prefix.pch";
+				INFOPLIST_FILE = "Being/Lichtung_Being-Info.plist";
+				PRODUCT_NAME = Lichtung_Being;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -267,9 +268,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Being/Being-Prefix.pch";
-				INFOPLIST_FILE = "Being/Being-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Being/Lichtung_Being-Prefix.pch";
+				INFOPLIST_FILE = "Being/Lichtung_Being-Info.plist";
+				PRODUCT_NAME = Lichtung_Being;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -277,7 +278,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		493297FF1697504C0077AFD3 /* Build configuration list for PBXProject "Being" */ = {
+		493297FF1697504C0077AFD3 /* Build configuration list for PBXProject "Lichtung_Being" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				493298211697504D0077AFD3 /* Debug */,
@@ -286,7 +287,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		493298231697504D0077AFD3 /* Build configuration list for PBXNativeTarget "Being" */ = {
+		493298231697504D0077AFD3 /* Build configuration list for PBXNativeTarget "Lichtung_Being" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				493298241697504D0077AFD3 /* Debug */,
